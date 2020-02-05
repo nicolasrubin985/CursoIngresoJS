@@ -3,7 +3,11 @@ function mostrar()
 {
 alert("asdasdasdasd");
 
-
+// para subir  git clone https://github.com/usuario/CursodeIngresoJS
+// para bajar 
+//git add 
+//git commit -m " asdasdas"
+//git push
 	
 
 
