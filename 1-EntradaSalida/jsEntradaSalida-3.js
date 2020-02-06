@@ -2,9 +2,13 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-    var a = document.getElementById("elNombre").value;
-//buscar el id en html correspondiente
-    alert (a);
+var a = document.getElementById("elNombre").value;
+alert(a);
+
+
+
+
+
       
 }
 

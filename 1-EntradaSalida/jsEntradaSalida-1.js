@@ -1,7 +1,7 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'mostrar'.
 function mostrar()
 {
-alert("asdasdasdasd");
+alert ("mostrar");
 
 // para subir  git clone https://github.com/usuario/CursodeIngresoJS
 // para bajar 
@@ -13,6 +13,6 @@ alert("asdasdasdasd");
 
 
 	
-	alert("ok");
+
 }
 
