@@ -5,6 +5,7 @@
 function mostrar()
 {
 var a;
+
 a =prompt("dato ");
 
 document.getElementById("elNombre").value =a;

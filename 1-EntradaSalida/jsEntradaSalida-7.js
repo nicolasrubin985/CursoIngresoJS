@@ -1,41 +1,53 @@
 /*Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
-ej.: "la Resta es 750"*/ 
+ej.: "la Resta es 750"*/
 
-{
-var a=document.getElementById("numeroUno").value;
-var b=document.getElementById("numeroDos").value;
-
-	 a =parseInt(a);
-     b=parseInt(b);
-{   
-
-    function sumar()
-   {	
-   
-
-    
-    alert(a+b);
-
-    
-
-	
+function sumar() {
+    var a;
+    var b;
+    var suma;
+     a = document.getElementById("numeroUno").value;
+     b = document.getElementById("numeroDos").value;
+    a = parseInt(a);
+    b = parseInt(b);
+     suma = a + b;
+    alert(suma);
 }
 
-function restar()
-{
-	
+function restar() {
+    var a;
+    var b;
+    var resta;
+     a = document.getElementById("numeroUno").value;
+     b = document.getElementById("numeroDos").value;
+    a = parseInt(a);
+    b = parseInt(b);
+    resta = a + b;
+    alert(resta);
 }
 
-function multiplicar()
-{ 
-	
+function multiplicar() {
+    var a;
+    var b;
+    var multiplicador;
+     a = document.getElementById("numeroUno").value;
+     b = document.getElementById("numeroDos").value;
+    a = parseInt(a);
+    b =  parseInt(b);
+    var multiplicador = a * b;
+    alert(multiplicador);
+
 }
 
-function dividir()
-{
-	
-}
-}
+function dividir() {
+    var a;
+    var b;
+    var divisor;
+     a = document.getElementById("numeroUno").value;
+     b = document.getElementById("numeroDos").value;
+    a = parseInt(a);
+    b = parseInt(b);
+     divisor = a % b;
+    alert(divisor);
 }
