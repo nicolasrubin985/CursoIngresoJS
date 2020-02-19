@@ -1,12 +1,30 @@
 function mostrar()
 {
+	var numero1;
+	var con=0;
+	var acu=0;
+	var prom;
+	
+	
+	while(con<5 )
+	{
 
-	var contador=0;
-	var acumulador=0;
+		numero1 = parseInt(prompt("siguiente numero "));
+		while(isNaN(numero1))
+		{
+			numero1=parseInt(prompt("no es numero escribir numero "));
+		}
+		
+		acu= numero1+acu;
+		con++
 
 
+	}
+	 prom=acu/5;
+	
 
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
+
+document.getElementById('suma').value=acu;
+document.getElementById('promedio').value=prom;
 
 }//FIN DE LA FUNCIÓN
