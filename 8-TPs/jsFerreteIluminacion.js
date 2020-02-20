@@ -46,6 +46,24 @@ function CalcularPrecio ()
              descuento=(precio*cantidad)*0.20;
              precioFinal=(precio*cantidad)- decuento;
          }
+         break;
+         case 3:
+         if (marca=="ArgentinaLuz")
+         {
+
+         }
+         else if(marca=="ArgentinaLuz")
+            {
+
+
+            }
+            else
+            {
+
+            }
+            break
+
+
          default:
          descuento = (precio* cantidad)*0.50;
          precioFinal=(precio*cantidad)-descuento;
