@@ -12,11 +12,11 @@ function mostrar()
     for(var contador=0;contador<numero;contador++){
 
         if(numero%2==0)
-        console.log("numeros pares"+ contador);
+        console.log("numeros div"+ contador);
         numerosPares++;
     }
 
-    console.log("numeros pares :"+ numerosPares)
+    console.log("numeros pares :"+ numerosDiv);
 
 
 
